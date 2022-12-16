@@ -1,0 +1,11 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule .* index.php/$0 [PT,L]
+
+
+
+#RewriteCond %{REMOTE_ADDR} !^172.20.110.49
+#RewriteCond %{REQUEST_URI} !^/maintenance/maintenance.html(.)*$ [NC]
+#RewriteRule ^(.*)$ /maintenance/maintenance.html [R=302,L]
+

@@ -1,0 +1,571 @@
+%PDF-1.1
+1 0 obj
+<<
+/Creator (Developer 2000)
+/CreatorDate (Wed Feb 24 10:32:51 AM 2016)
+/Author (Oracle Reports)
+/Producer (Oracle PDF driver)
+/Title (o96877001.out)
+>>
+endobj
+5 0 obj
+<</Length 6 0 R>>
+stream
+BT
+16.24 587.32 TD
+/F0 7.00 Tf
+(G001 - DC JAKARTA 1) Tj
+449.36 -13.04 TD
+(Cashier DC Batch Receipts) Tj
+326.40 12.88 TD
+(Report Name: CDC001) Tj
+0.00 -7.87 TD
+(  Date Time: ) Tj
+(24-FEB-16 10:32:51) Tj
+0.00 -7.91 TD
+(       Page: ) Tj
+(1) Tj
+( Of ) Tj
+(1) Tj
+ET
+0.00 w
+0 J
+0 j
+15.75 447.07 918.00 9.00 re S
+BT
+15.75 548.84 TD
+/F1 7.00 Tf
+(Batch Number: ) Tj
+(16-030581) Tj
+0.00 -9.35 TD
+(Batch Date : ) Tj
+(24-FEB-16) Tj
+0.00 -9.32 TD
+(Type : ) Tj
+(REG - Setoran Tunai Jemputan) Tj
+337.28 18.67 TD
+(         User : ) Tj
+(JKT1AR-SPV) Tj
+0.00 -9.35 TD
+(Reference Num : ) Tj
+(a001) Tj
+0.00 -9.32 TD
+(       Status : ) Tj
+(NEW) Tj
+ET
+123.76 447.07 72.00 9.00 re S
+BT
+166.00 449.84 TD
+/F0 7.00 Tf
+( 1,000,000) Tj
+ET
+415.96 447.07 58.52 9.00 re S
+BT
+469.19 449.84 TD
+( 0) Tj
+ET
+474.68 447.04 58.52 9.00 re S
+BT
+527.91 449.80 TD
+( 0) Tj
+ET
+533.24 447.07 40.52 9.00 re S
+BT
+568.48 449.84 TD
+( 0) Tj
+ET
+641.24 447.07 67.51 9.00 re S
+BT
+679.00 449.84 TD
+( 2,000,000) Tj
+ET
+29.24 456.04 24.32 13.51 re S
+BT
+29.24 463.36 TD
+(T001) Tj
+ET
+29.24 469.56 24.32 31.51 re S
+BT
+33.96 494.84 TD
+(Store) Tj
+0.00 -7.91 TD
+(Code) Tj
+-2.39 -7.87 TD
+(-----) Tj
+ET
+53.64 456.04 70.12 13.51 re S
+BT
+53.64 463.36 TD
+(ANCOL) Tj
+ET
+53.64 469.56 70.12 31.51 re S
+BT
+81.23 494.84 TD
+(Store) Tj
+-0.95 -7.91 TD
+(Name) Tj
+-21.24 -7.87 TD
+(---------------) Tj
+ET
+123.76 456.04 22.51 13.51 re S
+BT
+123.76 463.36 TD
+(24-01) Tj
+ET
+123.60 469.56 22.51 31.51 re S
+q
+123.60 469.56 22.51 31.51 re W n
+BT
+127.40 494.84 TD
+(Sales) Tj
+0.83 -7.87 TD
+(Date) Tj
+-5.24 -7.91 TD
+(------) Tj
+ET
+Q 0 g 0 G
+0.00 w
+0 J
+0 j
+146.24 456.04 49.52 13.51 re S
+BT
+166.00 463.36 TD
+/F0 7.00 Tf
+( 1,000,000) Tj
+ET
+146.24 469.56 49.52 31.51 re S
+BT
+155.28 494.84 TD
+(Act Cash +) Tj
+-1.56 -7.91 TD
+(Penggantian) Tj
+-4.44 -7.87 TD
+(-----------) Tj
+ET
+195.75 456.04 40.52 13.51 re S
+BT
+206.48 463.36 TD
+( 1,000,000) Tj
+ET
+195.75 469.56 40.52 31.51 re S
+BT
+206.64 494.84 TD
+(Actual) Tj
+-0.35 -7.91 TD
+(RRAK) Tj
+-8.04 -7.87 TD
+(---------) Tj
+ET
+258.75 456.04 40.52 13.51 re S
+BT
+293.95 463.36 TD
+( 0) Tj
+ET
+258.75 469.56 40.52 31.51 re S
+BT
+269.63 494.84 TD
+(Actual) Tj
+0.00 -7.91 TD
+(Kurset) Tj
+-8.40 -7.87 TD
+(---------) Tj
+ET
+375.75 456.04 40.52 13.51 re S
+BT
+410.96 463.36 TD
+( 0) Tj
+ET
+375.75 469.56 40.52 31.51 re S
+BT
+386.63 494.84 TD
+(Actual) Tj
+-2.64 -7.91 TD
+(Voucher) Tj
+-5.75 -7.87 TD
+(---------) Tj
+ET
+434.24 456.04 40.52 13.51 re S
+BT
+469.48 463.36 TD
+( 0) Tj
+ET
+434.36 469.56 40.52 31.51 re S
+BT
+445.24 494.84 TD
+(Actual) Tj
+-4.20 -7.87 TD
+(Byr NBH) Tj
+-4.20 -7.91 TD
+(---------) Tj
+ET
+492.75 456.04 40.52 13.51 re S
+BT
+527.96 463.36 TD
+( 0) Tj
+ET
+492.80 469.51 40.60 31.51 re S
+BT
+503.72 494.84 TD
+(Actual) Tj
+3.47 -7.91 TD
+(WU) Tj
+-11.88 -7.91 TD
+(---------) Tj
+ET
+533.24 456.04 40.52 13.51 re S
+BT
+568.48 463.36 TD
+( 0) Tj
+ET
+533.24 469.56 40.52 31.51 re S
+BT
+544.12 494.84 TD
+(Actual) Tj
+-5.36 -7.91 TD
+(Lain-Lain) Tj
+-5.08 -7.87 TD
+(----------) Tj
+ET
+573.75 456.04 67.51 13.51 re S
+BT
+573.75 463.36 TD
+() Tj
+ET
+573.75 469.56 67.51 31.51 re S
+BT
+594.08 494.84 TD
+(Deskripsi) Tj
+-11.56 -7.91 TD
+(Actual Lain-Lain) Tj
+-8.64 -7.87 TD
+(-----------------) Tj
+ET
+641.24 456.04 67.51 13.51 re S
+BT
+679.00 463.36 TD
+( 2,000,000) Tj
+ET
+641.24 469.56 67.51 31.51 re S
+BT
+667.56 494.84 TD
+(Total) Tj
+-1.91 -7.91 TD
+(Actual) Tj
+-12.35 -7.87 TD
+(-----------) Tj
+ET
+708.75 456.04 40.52 13.51 re S
+BT
+743.96 463.36 TD
+( 0) Tj
+ET
+708.75 469.56 40.52 31.51 re S
+BT
+715.80 494.84 TD
+(Potongan) Tj
+3.47 -7.91 TD
+(RRAK) Tj
+-8.04 -7.87 TD
+(---------) Tj
+ET
+749.24 456.04 36.00 13.51 re S
+BT
+760.75 463.36 TD
+( 500,000) Tj
+ET
+749.24 469.56 36.00 31.51 re S
+BT
+754.03 494.84 TD
+(Potongan) Tj
+3.83 -7.91 TD
+(Kurset) Tj
+-8.40 -7.87 TD
+(---------) Tj
+ET
+825.75 456.04 36.00 13.51 re S
+BT
+856.48 463.36 TD
+( 0) Tj
+ET
+825.75 469.56 36.00 31.51 re S
+BT
+830.56 494.84 TD
+(Potongan) Tj
+-1.56 -7.91 TD
+(Lain-Lain) Tj
+-3.00 -7.87 TD
+(---------) Tj
+ET
+861.75 456.04 72.00 13.51 re S
+BT
+861.75 463.36 TD
+(Deduction - Les) Tj
+ET
+861.75 469.56 72.00 31.51 re S
+BT
+878.80 494.84 TD
+(Deskripsi Pot) Tj
+5.87 -7.91 TD
+(Lain-Lai) Tj
+-20.51 -7.87 TD
+(-----------------) Tj
+ET
+15.75 469.56 13.51 31.51 re S
+BT
+18.16 494.84 TD
+(No) Tj
+-1.52 -15.80 TD
+(---) Tj
+ET
+15.75 456.04 13.51 13.51 re S
+BT
+15.75 463.36 TD
+(1) Tj
+ET
+195.75 447.07 40.52 9.00 re S
+BT
+214.87 451.51 TD
+/F0 5.00 Tf
+( 1,000,000) Tj
+ET
+236.24 447.07 63.00 9.00 re S
+BT
+293.95 449.84 TD
+/F0 7.00 Tf
+( 0) Tj
+ET
+357.75 447.07 58.52 9.00 re S
+BT
+410.96 449.84 TD
+( 0) Tj
+-348.63 0.00 TD
+(Total) Tj
+ET
+708.75 447.07 40.52 9.00 re S
+BT
+745.39 451.28 TD
+/F2 5.00 Tf
+( 0) Tj
+ET
+749.24 447.07 36.00 9.00 re S
+BT
+760.75 449.84 TD
+/F0 7.00 Tf
+( 500,000) Tj
+ET
+825.75 447.07 36.00 9.00 re S
+BT
+856.48 449.84 TD
+( 0) Tj
+-840.72 -76.79 TD
+/F1 7.00 Tf
+(1) Tj
+0.00 16.64 TD
+(No) Tj
+24.80 -16.64 TD
+(A2201) Tj
+0.00 16.71 TD
+(Check Num) Tj
+204.92 -16.71 TD
+( 1,000,000) Tj
+-8.40 17.32 TD
+(Check Amount) Tj
+-221.31 12.91 TD
+(Giro Tukar Uang:) Tj
+212.56 -46.56 TD
+(--------------) Tj
+-21.12 -9.32 TD
+(          1,000,000) Tj
+-180.64 0.76 TD
+(Total:) Tj
+-10.80 -22.83 TD
+/F3 7.00 Tf
+(Total Cash Yg harus Disetor:) Tj
+211.64 9.48 TD
+(--------------) Tj
+-21.12 -9.35 TD
+/F1 7.00 Tf
+(          1,000,000) Tj
+ET
+317.24 469.56 40.52 31.51 re S
+BT
+327.56 494.84 TD
+/F0 7.00 Tf
+(Virtual) Tj
+0.56 -7.91 TD
+(Kurset) Tj
+-8.40 -7.87 TD
+(---------) Tj
+ET
+785.24 469.56 40.52 31.51 re S
+BT
+792.27 494.84 TD
+(Potongan) Tj
+3.28 -7.91 TD
+(Virtual) Tj
+-7.83 -7.87 TD
+(---------) Tj
+ET
+474.68 469.56 18.00 31.51 re S
+BT
+477.80 494.84 TD
+(WU) Tj
+-0.71 -7.87 TD
+(Date) Tj
+ET
+236.24 469.56 22.51 31.51 re S
+BT
+238.12 494.84 TD
+(Kurset) Tj
+2.76 -7.91 TD
+(Date) Tj
+ET
+299.24 469.56 18.00 31.51 re S
+BT
+302.60 494.84 TD
+(Virt) Tj
+-0.95 -7.91 TD
+(Date) Tj
+ET
+357.75 469.56 18.00 31.51 re S
+BT
+359.19 494.84 TD
+(Vouc) Tj
+0.95 -7.91 TD
+(Date) Tj
+ET
+416.31 469.00 18.00 31.51 re S
+BT
+417.87 494.28 TD
+(NBH) Tj
+0.83 -7.91 TD
+(Date) Tj
+ET
+236.24 456.04 22.51 13.51 re S
+BT
+258.75 463.36 TD
+() Tj
+ET
+299.24 456.04 18.00 13.51 re S
+BT
+317.24 463.36 TD
+() Tj
+ET
+357.75 456.04 18.00 13.51 re S
+BT
+375.75 463.36 TD
+() Tj
+ET
+317.24 456.04 40.52 13.51 re S
+BT
+352.48 463.36 TD
+( 0) Tj
+ET
+416.24 456.04 18.00 13.51 re S
+BT
+425.24 463.36 TD
+() Tj
+ET
+474.75 456.04 18.00 13.51 re S
+BT
+492.75 463.36 TD
+() Tj
+ET
+785.24 456.04 40.52 13.51 re S
+BT
+820.48 463.36 TD
+( 0) Tj
+ET
+299.24 447.07 58.52 9.00 re S
+BT
+352.48 449.84 TD
+( 0) Tj
+ET
+785.24 447.07 40.52 9.00 re S
+BT
+820.48 449.84 TD
+( 0) Tj
+ET
+endstream
+endobj
+6 0 obj
+6404
+endobj
+7 0 obj
+<</Type /Font
+/Name /F0
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Roman
+>>
+endobj
+8 0 obj
+<</Type /Font
+/Name /F1
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier
+>>
+endobj
+9 0 obj
+<</Type /Font
+/Name /F2
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Bold
+>>
+endobj
+10 0 obj
+<</Type /Font
+/Name /F3
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier-Bold
+>>
+endobj
+4 0 obj
+<<
+/Type /Page
+/MediaBox [0 0 1008 612]
+/Parent 3 0 R
+/Resources <</ProcSet [ /PDF /Text ] /Font << /F0 7 0 R /F1 8 0 R /F2 9 0 R /F3 10 0 R >> >>
+/Contents 5 0 R
+/CropBox [0 0 1008 612]
+>>
+endobj
+2 0 obj
+<<
+/Type /Catalog
+/Pages 3 0 R
+>>
+endobj
+3 0 obj
+<<
+/Type /Pages
+/Kids [ 
+4 0 R ]
+/Count 1
+>>
+endobj
+xref
+0 11
+0000000000 65535 f 
+0000000009 00000 n 
+0000007285 00000 n 
+0000007334 00000 n 
+0000007080 00000 n 
+0000000177 00000 n 
+0000006631 00000 n 
+0000006651 00000 n 
+0000006759 00000 n 
+0000006863 00000 n 
+0000006970 00000 n 
+trailer
+<<
+/Size 11
+/Root 2 0 R
+/Info 1 0 R
+>>
+startxref
+7394
+%%EOF

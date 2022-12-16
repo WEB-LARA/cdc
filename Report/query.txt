@@ -1,0 +1,16 @@
+SELECT a."CDC_REC_ID", b."STORE_CODE", b."STORE_NAME", a."SALES_DATE", a."ACTUAL_SALES_AMOUNT",
+        (select COALESCE(sum(tmbh."TRX_DET_AMOUNT"),0) FROM cdc_trx_detail_tambah AS tmbh WHERE tmbh."TRX_CDC_REC_ID" = a."CDC_REC_ID" AND tmbh."TRX_PLUS_ID" = 1) AS "ACTUAL_RRAK",
+        (select COALESCE(sum(tmbh."TRX_DET_AMOUNT"),0) FROM cdc_trx_detail_tambah AS tmbh WHERE tmbh."TRX_CDC_REC_ID" = a."CDC_REC_ID" AND tmbh."TRX_PLUS_ID" = 2) AS "ACTUAL_KURSET",
+        (select COALESCE(sum(tmbh."TRX_DET_AMOUNT"),0) FROM cdc_trx_detail_tambah AS tmbh WHERE tmbh."TRX_CDC_REC_ID" = a."CDC_REC_ID" AND tmbh."TRX_PLUS_ID" = 3) AS "ACTUAL_VIRTUAL_KURSET",
+        (select COALESCE(sum(tmbh."TRX_DET_AMOUNT"),0) FROM cdc_trx_detail_tambah AS tmbh WHERE tmbh."TRX_CDC_REC_ID" = a."CDC_REC_ID" AND tmbh."TRX_PLUS_ID" = 4) AS "ACTUAL_NBH",
+        (select COALESCE(sum(tmbh."TRX_DET_AMOUNT"),0) FROM cdc_trx_detail_tambah AS tmbh WHERE tmbh."TRX_CDC_REC_ID" = a."CDC_REC_ID" AND tmbh."TRX_PLUS_ID" = 5) AS "ACTUAL_WU",
+        (select COALESCE(sum(tmbh."TRX_DET_AMOUNT"),0) FROM cdc_trx_detail_tambah AS tmbh WHERE tmbh."TRX_CDC_REC_ID" = a."CDC_REC_ID" AND tmbh."TRX_PLUS_ID" = 6) AS "ACTUAL_LAIN",
+        (select COALESCE(sum(tmbh."TRX_DET_AMOUNT"),0) FROM cdc_trx_detail_tambah AS tmbh WHERE tmbh."TRX_CDC_REC_ID" = a."CDC_REC_ID" )  AS "ACTUAL_TOTAL",
+
+        (select COALESCE(sum(krg."TRX_MINUS_AMOUNT"),0) FROM cdc_trx_detail_minus AS krg WHERE krg."TRX_CDC_REC_ID" = a."CDC_REC_ID" AND krg."TRX_MINUS_ID" = 21) AS "POTONGAN_RRAK",
+        (select COALESCE(sum(krg."TRX_MINUS_AMOUNT"),0) FROM cdc_trx_detail_minus AS krg WHERE krg."TRX_CDC_REC_ID" = a."CDC_REC_ID" AND krg."TRX_MINUS_ID" = 22) AS "POTONGAN_KURSET",
+        (select COALESCE(sum(krg."TRX_MINUS_AMOUNT"),0) FROM cdc_trx_detail_minus AS krg WHERE krg."TRX_CDC_REC_ID" = a."CDC_REC_ID" AND krg."TRX_MINUS_ID" = 23) AS "POTONGAN_VIRTUAL",
+        (select COALESCE(sum(krg."TRX_MINUS_AMOUNT"),0) FROM cdc_trx_detail_minus AS krg WHERE krg."TRX_CDC_REC_ID" = a."CDC_REC_ID" AND krg."TRX_MINUS_ID" = 24) AS "POTONGAN_LAIN"
+                FROM cdc_trx_receipts AS a INNER JOIN cdc_master_toko AS b ON(a."STORE_ID" = b."STORE_ID")
+                WHERE a."CDC_BATCH_ID" IN(SELECT "CDC_BATCH_ID" FROM cdc_trx_batches)
+                GROUP BY a."CDC_REC_ID", b."STORE_CODE", b."STORE_NAME"

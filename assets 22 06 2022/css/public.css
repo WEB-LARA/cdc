@@ -1,0 +1,31 @@
+*{
+	font-size:12px;
+}
+body {
+    font-family:verdana,helvetica,arial,sans-serif;
+    padding:20px;
+    font-size:12px;
+    margin:0;
+	z-index: 1;
+}
+
+div#date_time{
+	z-index: 200;
+	position: absolute;
+}
+
+div#loginProfile {
+    position:fixed;
+    left:78%;
+    top:18px;
+	margin-right:10px;
+}
+
+div#loginShift {
+	font-size: 100%;
+    position:fixed;
+    left:70%;
+    top:23px;
+	margin-right:10px;
+}
+
